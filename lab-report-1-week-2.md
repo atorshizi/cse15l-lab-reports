@@ -1,6 +1,5 @@
-<title> Title </title>
-
-# Using the remote UCSD servers
+# Lab Report 1
+## Using the remote UCSD servers
 
 
 We can access remote UCSD servers from our own local computer (the client in this case). Though this can be done many different ways, we will focus on how to do it using Visual Studio Code. Below are the direction on how to set up a connection and run programs on the UCSD ieng6.
