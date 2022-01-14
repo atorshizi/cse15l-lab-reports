@@ -27,7 +27,7 @@ print("Hello World")
 
 ![image](pic.jpg)
 
-
+<img src="pic.jpg" width="150"/>
 
 
 
