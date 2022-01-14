@@ -2,3 +2,21 @@
 **Hello World**
 
 *this should be italics*
+
+1. blackberries
+2. strawberries
+3. kiwi
+
+``` java
+System.out.println("Hello World");
+```
+
+``` cpp
+print("Hello World")
+```
+
+|Movies|Year|
+|--|--|
+|Far from Home|2019|
+|Endgame|2018|
+|No way Home|2021|
