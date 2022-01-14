@@ -4,7 +4,7 @@
 We can access remote UCSD servers from our own local computer (the client in this case). Though this can be done many different ways, we will focus on how to do it using Visual Studio Code. Below are the direction on how to set up a connection and run programs on the UCSD ieng6.
 
 ### Step 1: Install VSCode
-- Head over to code.visualstudio.com and install the program for your respective operating system and follow all instructions given during the installation menu. 
+- Head over to [code.visualstudio.com](code.visualstudio.com) and install the program for your respective operating system and follow all instructions given during the installation menu. 
 - Once the program is done installing, open up Visual Studio Code on your computer and you will be presented with a screen similar to the picture below (The image uses a different coloring theme than the default).
 <img src="pics/1.1.png"/>
 
@@ -12,14 +12,14 @@ We can access remote UCSD servers from our own local computer (the client in thi
 ### Step 2: Remotely Connecting
 - If running on a window machine, it may be necessary to install OpenSSH which allows windows to connect to remote servers. 
      - The instructions can be found on Microsoft’s website at 
-     https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
-- In VSCode, go to “Terminal” and open “New Terminal” and in the terminal at the bottom, type in the command ‘ssh’ followed by your course-specific account name that can be found at https://sdacs.ucsd.edu/~icc/index.php followed by the password you set after looking up your account.
+     [this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+- In VSCode, go to “Terminal” and open “New Terminal” and in the terminal at the bottom, type in the command ‘ssh’ followed by your course-specific account name that can be found at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) followed by the password you set after looking up your account.
 
 <img src="pics/2.1.png"/>
 <img src="pics/2.2.png"/>
 
 ### Step 3: Running some commands
-- A more complete list of commands can be found at http://mally.stanford.edu/~sr/computing/basic-unix.html but for this process we will focus on cd (which will change the directory), ls (which will show the contents of the current directory), pwd (which shows the current directory), mkdir (which will create a new directory whose name follows, such as ‘mkdir testDirectory’), cp (which will copy a file from current directory to another directory such as ‘cp filename folder2’), and cat < filename > (which shows the contents of < filename >).
+- A more complete list of commands can be found at [here](http://mally.stanford.edu/~sr/computing/basic-unix.html), but for this process we will focus on ```cd``` (which will change the directory), ls (which will show the contents of the current directory), pwd (which shows the current directory), mkdir (which will create a new directory whose name follows, such as ‘mkdir testDirectory’), cp (which will copy a file from current directory to another directory such as ‘cp filename folder2’), and cat < filename > (which shows the contents of < filename >).
 - Extra flags can be added to some commands, they include cd ~ which resets back to home directory, ls -a which shows the all files including hidden files, , ls -lat which shows all detailed information about all files in directory, ls < directory > which shows the contents of < directory >, cp < directory >/< filename > ~/ which will copy < filename > from < directory > to the home directory.
 <img src="pics/3.1.png"/>
 <img src="pics/3.2.png"/>
