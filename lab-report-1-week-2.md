@@ -6,6 +6,7 @@ We can access remote UCSD servers from our own local computer (the client in thi
 ### Step 1: Install VSCode
 - Head over to code.visualstudio.com and install the program for your respective operating system and follow all instructions given during the installation menu. 
 - Once the program is done installing, open up Visual Studio Code on your computer and you will be presented with a screen similar to the picture below (The image uses a different coloring theme than the default).
+<img src="pics/1.1.png" width="500"/>
 
 
 ### Step 2: Remotely Connecting
