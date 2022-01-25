@@ -1,5 +1,5 @@
-# CSE 15L Lab Reports
-- Report Links
+# **CSE 15L Lab Reports**
+- ## **Report Links**
 
   - [Lab Report 1](lab-report-1-week-2.html)
 
@@ -7,8 +7,8 @@
 
 
 ---
-Week 2 Lab Activities
----
+
+# **Week 2 Lab Activities** 
 
 **Hello World**
 
