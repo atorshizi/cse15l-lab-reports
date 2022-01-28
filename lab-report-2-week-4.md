@@ -2,7 +2,7 @@
 ### **Debugging step #1**
 Github Diff:
 
-![diff1](pics2\1.png)
+![diff1](pics2/1.png)
 
 [Failiure-Inducing Input]()
 
