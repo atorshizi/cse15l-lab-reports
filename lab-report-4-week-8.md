@@ -6,7 +6,7 @@
 
 [Reviewed Markdown Parse Repository](https://github.com/clingunis/markdown-parse)
 
-### Snippit 1:
+### Snippet 1:
 Based on VScode's markdown viewer, I expect this test file should have the following three links: 
 ``` 
 `google.com
@@ -21,7 +21,7 @@ I made two JUnit tests for this file (one for our implementation and one for the
 @Test
 public void TestOurSnippit1() throws IOException{
     Path fileName = Path.of(PATH + "snip1.md");
-	String contents = Files.readString(fileName);
+    String contents = Files.readString(fileName);
     ArrayList<String> expected = new ArrayList<>();
     expected.add("`google.com");
     expected.add("google.com");
@@ -33,7 +33,7 @@ public void TestOurSnippit1() throws IOException{
 @Test
 public void TestReviewedSnippit1() throws IOException{
     Path fileName = Path.of(PATH + "snip1.md");
-	String contents = Files.readString(fileName);
+    String contents = Files.readString(fileName);
     ArrayList<String> expected = new ArrayList<>();
     expected.add("`google.com");
     expected.add("google.com");
@@ -50,7 +50,7 @@ For the group that we reviewed, the JUnit test also failed with the following re
 
 
 
-### Snippit 2:
+### Snippet 2:
 Based on VScode's markdown viewer, I expect this test file should have the following three links: 
 ``` 
 a.com
@@ -65,7 +65,7 @@ I made two JUnit tests for this file (one for our implementation and one for the
 @Test
 public void TestOurSnippit2() throws IOException{
     Path fileName = Path.of(PATH + "snip2.md");
-	String contents = Files.readString(fileName);
+    String contents = Files.readString(fileName);
     ArrayList<String> expected = new ArrayList<>();
     expected.add("a.com");
     expected.add("a.com(())");
@@ -77,7 +77,7 @@ public void TestOurSnippit2() throws IOException{
 @Test
 public void TestReviewedSnippit2() throws IOException{
     Path fileName = Path.of(PATH + "snip2.md");
-	String contents = Files.readString(fileName);
+    String contents = Files.readString(fileName);
     ArrayList<String> expected = new ArrayList<>();
     expected.add("a.com");
     expected.add("a.com(())");
@@ -94,7 +94,7 @@ For the group that we reviewed, the JUnit test also failed with the following re
 
 
 
-### Snippit 3:
+### Snippet 3:
 Based on VScode's markdown viewer, I expect this test file should have the following three links: 
 ``` 
 https://www.twitter.com
