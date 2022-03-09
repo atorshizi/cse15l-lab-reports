@@ -5,7 +5,7 @@ To get the output for all the test files, I ran the provided script file while c
 
 ### Problem 1:
 Based on VScode's markdown viewer, I would expect the file *194.md* to have only the link `title (with parens)` however both implementations yeilded the incorrect outputs for this since the raw code is 
-``` java
+```
 [Foo*bar\]]:my_(url) 'title (with parens)'
 
 [Foo*bar\]]
@@ -20,7 +20,7 @@ There are characters after the closing brackets that causes my implementation of
 
 ### Problem 2:
 Based on VScode's markdown viewer, I would expect the file *22.md* to have only the link `ti*tle` however both implementations yeilded the incorrect outputs for this since the raw code is 
-``` java
+``` 
 [foo](/bar\* "ti\*tle")
 ```
 and there are backspace escapes that shouldn't be included as the URL. Neither implementations return an array with the expected URL; instead they returned the following (the output on the left is my implementation):
